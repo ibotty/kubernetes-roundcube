@@ -1,7 +1,7 @@
 FROM centos/php-56-centos7
 MAINTAINER Tobias Florek <tob@butter.sh>
 
-ENV ROUNDCUBE_VERSION=1.2.3 \
+ENV ROUNDCUBE_VERSION=1.2.5 \
     RCUBE_CONFIG_PATH=/etc/roundcube
 
 ENTRYPOINT ["/usr/libexec/s2i/run"]
