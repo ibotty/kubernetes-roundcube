@@ -1,4 +1,4 @@
-FROM centos/php-56-centos7
+FROM centos/php-71-centos7
 MAINTAINER Tobias Florek <tob@butter.sh>
 
 ENV ROUNDCUBE_VERSION=1.3.4 \
