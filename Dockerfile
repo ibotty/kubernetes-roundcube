@@ -1,7 +1,7 @@
 FROM centos/php-71-centos7
 LABEL MAINTAINER="Tobias Florek <tob@butter.sh>"
 
-ENV ROUNDCUBE_VERSION=1.3.5 \
+ENV ROUNDCUBE_VERSION=1.3.7 \
     RCUBE_CONFIG_PATH=/etc/roundcube
 
 ENTRYPOINT ["/usr/libexec/s2i/run"]
